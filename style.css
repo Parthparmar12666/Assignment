@@ -1,0 +1,114 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+ }
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.contaner{
+    max-width: 80%;
+    /* background-color:blueviolet; */
+    padding: 34px;
+    margin: auto;
+
+}
+.contaner h1 , p{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+
+}
+input , textarea{
+    width: 82%;
+    margin: 11px 0px;
+    padding: 7px;
+    font-size: 12px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 10px;
+    font-family: 'Oswald', sans-serif;
+
+
+    /* display: block; */
+
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main {
+    background-color: #262626;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button {
+    color: white;
+    background-color: purple;
+    padding: 16px;
+    height: 100px;
+    width: 150px;
+    /* background-color: purple;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    /* opacity: 0.6;
+    transition: 0.3s; */
+    /* display: inline-block;
+    text-decoration: none;ss
+    cursor: pointer; */
+    /* font-size: 20px; */
+    /* border: 2px solid white;s */ */
+  }
+  /* .button:h
+   {
+    opacity: 2;
+} */
+
+  .bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+  }
+ body{
+    background-color: blueviolet;
+
+
+ }    
+.box{
+    height:200px;
+    width:200px; 
+
+    background-color: blue;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-timing-function: ease-in;
+    }
+    @keyframes myanimation {
+        0%{background-color: aqua;left:0;top}
+        25%{background-color: black;}
+        45%{background-color: #262626;}
+        60%{background-color: brown;}
+        100%{background-color: red;}
+        
+    }
+  
+      
+
+
